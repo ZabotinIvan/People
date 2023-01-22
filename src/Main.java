@@ -10,18 +10,7 @@ public class Main {
                 .setName("Антошка")
                 .build();
         System.out.println("У " + mom + " Есть сын, " + son);
-        try {
-            new PersonBuilder().build();
-        } catch (IllegalStateException e) {
-            e.printStackTrace();
-        }
 
-        try {
-            // Возраст недопустимый
-            new PersonBuilder().setAge(-100).build();
-        } catch (IllegalArgumentException e) {
-            e.printStackTrace();
-        }
     }
 
 

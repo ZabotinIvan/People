@@ -23,9 +23,7 @@ public class Person {
     public Person(String name, String surname, int age,String address) {
         this.name = name;
         this.surname = surname;
-        if (age > 0 && age < 150){
-            this.age = age;
-        }
+        this.age = age;
         this.address = address;
         }
 
